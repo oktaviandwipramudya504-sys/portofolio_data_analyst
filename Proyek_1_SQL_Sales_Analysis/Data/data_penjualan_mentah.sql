@@ -1,0 +1,27 @@
+-- Membuat Tabel Transaksi Penjualan
+CREATE TABLE IF NOT EXISTS transaksi_penjualan (
+    id_transaksi VARCHAR(10) PRIMARY KEY,
+    tanggal_transaksi DATE,
+    nama_produk VARCHAR(50),
+    kategori VARCHAR(30),
+    jumlah_terjual INT,
+    harga_satuan INT,
+    biaya_produksi_satuan INT,
+    wilayah VARCHAR(30)
+);
+
+-- Memasukkan Data Transaksi (Januari - Mei 2026)
+INSERT INTO transaksi_penjualan VALUES 
+('TRX001', '2026-01-10', 'Kamera Mirrorless A', 'Elektronik', 2, 7000000, 5500000, 'Jakarta'),
+('TRX002', '2026-01-15', 'Lampu Studio X', 'Lighting', 5, 1200000, 800000, 'Bandung'),
+('TRX003', '2026-01-22', 'Tripod Profesional', 'Aksesoris', 10, 500000, 300000, 'Jakarta'),
+('TRX004', '2026-02-02', 'Lensa Kamera B', 'Elektronik', 1, 4500000, 3800000, 'Surabaya'),
+('TRX005', '2026-02-18', 'Tripod Profesional', 'Aksesoris', 8, 500000, 300000, 'Bandung'),
+('TRX006', '2026-02-25', 'Lampu Studio X', 'Lighting', 3, 1200000, 800000, 'Jakarta'),
+('TRX007', '2026-03-05', 'Kamera Mirrorless A', 'Elektronik', 3, 7000000, 5500000, 'Medan'),
+('TRX008', '2026-03-12', 'Lensa Kamera B', 'Elektronik', 2, 4500000, 3800000, 'Jakarta'),
+('TRX009', '2026-03-29', 'Lampu Studio X', 'Lighting', 4, 1200000, 800000, 'Surabaya'),
+('TRX010', '2026-04-04', 'Tripod Profesional', 'Aksesoris', 15, 500000, 300000, 'Medan'),
+('TRX011', '2026-04-19', 'Kamera Mirrorless A', 'Elektronik', 1, 7000000, 5500000, 'Bandung'),
+('TRX012', '2026-05-02', 'Lensa Kamera B', 'Elektronik', 4, 4500000, 3800000, 'Jakarta'),
+('TRX013', '2026-05-14', 'Lampu Studio X', 'Lighting', 6, 1200000, 800000, 'Medan');
