@@ -1,5 +1,5 @@
 Proyek 2: Analisis Eksplorasi Data (EDA) & Visualisasi Tren Penjualan (Python)
-📌 1. Latar Belakang Proyek
+1. Latar Belakang Proyek
 Setelah berhasil menarik data transaksi menggunakan SQL pada proyek sebelumnya, langkah selanjutnya adalah membangun sistem otomatisasi analisis menggunakan Python. Proyek ini berfokus pada Exploratory Data Analysis (EDA) untuk membaca berkas data penjualan format .csv, mengolah trennya secara dinamis, dan menyajikan grafik visual yang interaktif bagi tim manajemen.
 
 Tujuan Proyek:
@@ -7,12 +7,12 @@ Tujuan Proyek:
 Mengotomatisasi perhitungan total pendapatan dan keuntungan bersih (profit) per transaksi.
 Mentransformasi data tanggal mentah menjadi pengelompokkan berbasis bulan.
 Membuat visualisasi grafik batang (bar chart) yang informatif untuk presentasi bisnis.
-🛠️ 2. Kebutuhan Pustaka (Libraries)
+2. Kebutuhan Pustaka (Libraries)
 Proyek Python ini menggunakan dua pustaka utama dalam ekosistem data science:
 
 Pandas: Digunakan untuk manipulasi tabel data (Dataframe) dan perhitungan matematika.
 Matplotlib: Digunakan untuk merancang dan memunculkan grafik visualisasi data.
-💻 3. Alur Kerja Kode Python
+3. Alur Kerja Kode Python
 Seluruh proses analisis ditulis di dalam berkas analisis_performa.py dengan tahapan berikut:
 
 Data Ingestion: Membaca file data mentah dataset.csv ke dalam bentuk Dataframe Pandas.
