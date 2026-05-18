@@ -19,5 +19,5 @@ Data Ingestion: Membaca file data mentah dataset.csv ke dalam bentuk Dataframe P
 Feature Engineering: Membuat kolom kalkulasi baru untuk total_pendapatan serta total_profit bersih.
 Time Series Grouping: Mengubah teks tanggal menjadi objek waktu (datetime) untuk dikelompokkan berdasarkan bulan transaksi.
 Data Visualization: Menggambar grafik batang pendapatan menggunakan skema warna emas (#FFD700) yang elegan dengan grid bantuan agar data mudah dibaca oleh direksi.
-📊 4. Hasil Analisis Visual
+4. Hasil Analisis Visual
 Ketika program dijalankan, Python akan otomatis menampilkan grafik tren yang menunjukkan fluktuasi penjualan dari bulan Januari hingga Mei 2026 secara rapi, membantu pemangku kebijakan melihat performa bisnis hanya dalam satu kali klik.
